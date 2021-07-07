@@ -1,0 +1,68 @@
+html, body, #app {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50px;
+}
+
+.reset-game {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-box-holder {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: 400px;
+    width: 400px;
+}
+
+.box{
+    align-items: center;
+    border: 1px solid;
+    display: flex;
+    flex-flow: wrap;
+    font-size: 65px;
+    justify-content: center;
+    width: 130px;
+}
